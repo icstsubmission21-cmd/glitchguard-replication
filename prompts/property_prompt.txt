@@ -1,0 +1,22 @@
+You are a helpful assistant analyzing short video clips from the video game "{game}".
+
+Below is a checklist of known glitch patterns for this game. Use it to systematically scan the video. For each item, briefly consider whether the video shows that specific violation.
+
+GLITCH CHECKLIST:
+{checklist}
+
+INSTRUCTIONS:
+1. Scan the video carefully, keeping the checklist in mind.
+2. If you see something that matches ANY checklist item, or any other clearly abnormal visual behavior, report it as a glitch.
+3. If nothing in the video matches any checklist item and everything looks like plausible normal gameplay, report no glitch.
+4. Only report what you can actually see. Ambiguous or borderline cases should be treated as no glitch.
+
+Respond strictly in the following JSON format:
+
+{
+  "reasoning": "which checklist items you considered and why you think there is or is not a glitch; cite checklist IDs here if applicable",
+  "glitch_detected": true or false,
+  "description_of_glitch": "describe what you actually see going wrong in the video (e.g. 'a car clips through a concrete barrier' or 'the NPC floats into the sky'). Do NOT just write checklist IDs or category names. Empty string if no glitch."
+}
+
+Do NOT include any extra text outside the JSON.

@@ -1,0 +1,92 @@
+{
+  "type": "game_specific",
+  "game": "Grand Theft Auto V",
+  "engine": "RAGE",
+  "count": 12,
+  "properties": [
+    {
+      "id": "GTA-001",
+      "category": "vehicle_physics",
+      "name": "Vehicle launched, floating, or spinning in air",
+      "check": "Is a bus, van, or car launched into the sky, hovering above the road, or spinning in mid-air with no support? The vehicle should be clearly airborne with no ramp, explosion, or collision proportionate to the height.",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-002",
+      "category": "vehicle_physics",
+      "name": "Helicopter or aircraft frozen in mid-air",
+      "check": "Is a helicopter or plane stuck hovering in one spot with stationary rotors or no engine animation? It should be clearly frozen in place rather than performing a normal hover.",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-003",
+      "category": "vehicle_physics",
+      "name": "Vehicle drives vertically up surface",
+      "check": "Is a motorcycle, bicycle, or car driving straight up a cliff face, wall, or vertical surface as if it were flat road? The vehicle defies gravity on a near-vertical incline.",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-004",
+      "category": "spawning",
+      "name": "Character teleports to vehicle",
+      "check": "Does a character instantly appear in a vehicle's driver seat or on a bicycle with no mount animation? Look for the character being in one position, then suddenly sitting in/on the vehicle in the next moment.",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-005",
+      "category": "spawning",
+      "name": "Vehicle or object visibly spawns or despawns",
+      "check": "Does a vehicle, trailer, or large object suddenly appear out of thin air (especially above another vehicle) or abruptly vanish from the screen while the player is looking at it?",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-006",
+      "category": "collision",
+      "name": "Character clips under vehicle or hits invisible wall",
+      "check": "Does a character slide under a motorcycle or vehicle and die from clipping, or walk in place against empty space as if blocked by an invisible barrier in an open area?",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-007",
+      "category": "animation",
+      "name": "Character limbs twitch while walking",
+      "check": "Do a character's limbs jerk, twitch, or fight against each other repeatedly during normal walking or stepping, as if two animations are competing?",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-008",
+      "category": "physics",
+      "name": "Character falls through map surface",
+      "check": "Does the player walk or drive over normal ground and suddenly fall through the map into empty space or water below?",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-009",
+      "category": "animation",
+      "name": "Traffic AI frozen in intersection",
+      "check": "Are multiple vehicles stuck in an intersection, not moving at green lights, honking endlessly, or refusing to path around minor obstacles?",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-010",
+      "category": "vehicle_physics",
+      "name": "Car door remains closed while player exits",
+      "check": "Does the player exit a vehicle but the door never visibly opens, or remain half-clipped through the character?",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-011",
+      "category": "physics",
+      "name": "Interior fails to load",
+      "check": "When entering a building or switching to an interior, do objects such as walls, floors, or props fail to render, showing empty voids or missing textures?",
+      "in_checklist": true
+    },
+    {
+      "id": "GTA-012",
+      "category": "physics",
+      "name": "Character stuck in permanent state",
+      "check": "After being knocked down lightly, does the character remain lying on the ground unable to stand up, sliding slowly or jittering instead of recovering?",
+      "in_checklist": true
+    }
+  ]
+}

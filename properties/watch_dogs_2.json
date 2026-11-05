@@ -1,0 +1,113 @@
+{
+  "type": "game_specific",
+  "game": "Watch Dogs 2",
+  "engine": "Disrupt",
+  "count": 15,
+  "properties": [
+    {
+      "id": "WD2-001",
+      "category": "vehicle_physics",
+      "name": "Vehicle launched or spinning in air from minor collision",
+      "check": "Is a car, truck, motorcycle, or bicycle suddenly launched into the sky, flipping, or spinning uncontrollably in mid-air after hitting a small object like a street sign, bollard, curb, or parked car? The vehicle goes airborne and rotates in a way that is physically impossible for the size of the impact. Example: a motorcycle clips a street sign at moderate speed and is catapulted into a multi-flip aerial spin before landing upright.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-002",
+      "category": "object_physics",
+      "name": "Heavy object shoots upward without proportionate force",
+      "check": "Is a shipping container, dumpster, crate, or other heavy object suddenly launched vertically into the sky at high speed with no explosion or force large enough to justify the movement? The object accelerates upward on its own or from a minor interaction. Example: a shipping container being lifted by a forklift suddenly rockets straight upward and disappears into the sky.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-003",
+      "category": "vehicle_physics",
+      "name": "Vehicle flies over wall or barrier unnaturally",
+      "check": "Does a car or vehicle travel through the air over a wall, fence, or barrier without a ramp, explosion, or jump that would explain the trajectory? The vehicle becomes airborne and clears a solid barrier it should have crashed into. Example: a sedan drives at normal speed and sails over a concrete wall as if launched by an invisible ramp.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-004",
+      "category": "spawning",
+      "name": "Vehicle despawns when player approaches or interacts",
+      "check": "Does a parked or stationary vehicle abruptly vanish — pop out of existence — as the player walks toward it or tries to enter it? One frame the car is there, the next it is gone. There is no explosion, tow truck, or driving away. Example: the player walks up to a parked sports car and the entire vehicle disappears the instant they reach for the door handle.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-005",
+      "category": "spawning",
+      "name": "Vehicle or object vanishes from scene suddenly",
+      "check": "Does a vehicle or large object that is stuck on, embedded in, or resting on top of something suddenly disappear without any physical cause? The object is clearly visible in one frame and completely gone in the next. Example: a car wedged on top of an NPC's body abruptly vanishes when an ambulance arrives on the scene.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-006",
+      "category": "teleportation",
+      "name": "Character teleports into or through solid object",
+      "check": "Does the player character or an NPC instantly relocate from one position to inside a container, vehicle, or solid object without any transition, door-opening, or climbing animation? The character is in one position, then instantly appears inside or on the other side of a solid object. Example: the player floats near a shipping container and in the next frame appears inside it with no entry animation.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-007",
+      "category": "animation",
+      "name": "Wrong animation triggered on ladder or interaction",
+      "check": "Does the player character trigger a completely wrong animation when interacting with a ladder, ledge, or environmental object? For example: approaching a ladder triggers a falling-from-height animation with damage instead of a climbing animation, or touching a railing plays a vault animation into the void. Example: Marcus reaches a rooftop ladder to climb down and instead plays a long falling animation, taking damage as if he fell from a great height.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-008",
+      "category": "collision",
+      "name": "Character or vehicle passes through solid barrier",
+      "check": "Does the player, an NPC, or a vehicle pass directly through a solid wall, fence, gate, or barrier? The character or vehicle goes straight through the barrier as if it does not exist. Also look for a character or vehicle breaking through a barrier that should be indestructible while taking zero damage. Example: a biker rides through a concrete wall at full speed — the wall shatters but the rider is completely unharmed.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-009",
+      "category": "logical",
+      "name": "Vehicle drives itself without a driver",
+      "check": "Does a car or vehicle continue to drive, accelerate, steer, or maintain speed after its driver has visibly stepped out or been removed? The driver's seat is clearly empty but the vehicle keeps moving as if controlled. Example: an NPC steps out of a moving car and it continues to accelerate and steer down the road by itself with nobody inside.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-010",
+      "category": "logical",
+      "name": "NPCs walk through obstacles instead of around them",
+      "check": "Do multiple pedestrian NPCs walk directly into, through, or over obstacles such as bushes, flower beds, hedges, fences, or trash cans instead of walking around them on the sidewalk? Their bodies clip through the foliage or objects. Example: several pedestrians walk directly through a dense flower bed, their legs and bodies clipping through the plants instead of using the clear path next to it.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-011",
+      "category": "physics",
+      "name": "Player character launched or thrown extreme distance",
+      "check": "Is the player character suddenly thrown, launched, or propelled an extreme distance or height from a minor impact such as a slow vehicle bump, a light collision with an object, or touching a piece of scenery? The force on the player's body is wildly disproportionate to the cause. Example: the player is lightly bumped by a slow-moving car and is flung violently across the street, slamming into a tree at lethal speed.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-012",
+      "category": "physics",
+      "name": "Player performs impossibly high or far jump",
+      "check": "Does the player character jump from ground level and land directly on a rooftop, high ledge, or elevated surface that is far beyond normal jump height? There is no ladder, scaffold, trampoline, vehicle, or parkour surface to explain the height. Example: Marcus jumps from the sidewalk and lands on a two-story building roof in a single bound with no intermediate steps.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-013",
+      "category": "collision",
+      "name": "RC car or drone falls through map",
+      "check": "Does the Jumper (RC car) or quadcopter drone clip through the ground, a floor, a pipe, or terrain and fall into the void beneath the game world? The camera follows the device downward and you can see the underside of buildings and terrain from below. Example: the RC car drives into a pipe or over a curb and drops through the ground, showing the inverted underside of the map.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-014",
+      "category": "vehicle_physics",
+      "name": "Large vehicle launched and spinning by explosion",
+      "check": "Is a semi-truck, bus, tow truck, or other large heavy vehicle catapulted high into the air and sent spinning or tumbling by an explosion that is too small to justify the force? The vehicle rotates wildly mid-air like a toy. Example: a police car crashes into a parked semi-truck causing a small explosion, and the semi-truck spins vertically into the sky.",
+      "in_checklist": true
+    },
+    {
+      "id": "WD2-015",
+      "category": "physics",
+      "name": "Exaggerated crash ejection or ragdoll",
+      "check": "During a vehicle crash, is the rider or driver ejected with wildly exaggerated force — flying an unrealistic distance through the air, ragdolling across the street, or bouncing off multiple objects in a way that is far beyond what the crash speed would cause? A low-speed crash sends the character flying as if hit by an explosion. Example: a motorcycle hits a car at moderate speed and the rider is catapulted 30 meters through the air, tumbling across the road.",
+      "in_checklist": true
+    }
+  ]
+}
